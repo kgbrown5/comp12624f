@@ -1,0 +1,36 @@
+
+
+h1 {
+    font: Oswald
+}
+h2 {
+    color:pink
+}
+
+img {
+    padding: 10px;
+    background: white;
+    border: 3px solid black;
+}
+
+.header {
+    padding: 30px;
+    background: #c5d773;
+    color: black;
+}
+
+.main {
+    font: Iniria;
+    display: inline-block;
+    padding: 60px;
+    background: #e9dca9;
+    color: black;
+}
+
+.footer {
+    font: Oswald;
+    padding: 30px;
+    background: #35393b;
+    color: white;
+}
+

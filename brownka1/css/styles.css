@@ -1,36 +1,89 @@
+img {
+    max-width: 100%;
+}
 
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    background-color: lightpink;
+}
+
+.navbar li {
+    display: flex;
+}
+
+.navbar a {
+    display: flex;
+    align-content: center;
+    padding: 20px;
+    color: rgb(116, 47, 70);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a:hover, .navbar a:focus {
+    background-color: palevioletred;
+    color: white;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+}
 
 h1 {
-    font: Oswald
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: larger;
 }
+
 h2 {
-    color:pink
-}
-
-img {
-    padding: 10px;
-    background: white;
-    border: 3px solid black;
-}
-
-.header {
-    padding: 30px;
-    background: #c5d773;
-    color: black;
-}
-
-.main {
-    font: Iniria;
     display: inline-block;
-    padding: 60px;
-    background: #e9dca9;
-    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    background: white;
+}
+
+h3 {
+    font-style: italic;
+    font-size: medium;
+}
+
+p {
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 60px;
+    width: 50%;
+    text-align: center;
+}
+
+#bio {
+    display: inline-block;
+}
+
+#headshot {
+    height: 200px;
+    float: right;
+    margin-right: 15%;
+    border-radius: 4px;
 }
 
 .footer {
-    font: Oswald;
+    margin-top: 60px;
+    font-family: Verdana, Tahoma, sans-serif;
     padding: 30px;
     background: #35393b;
     color: white;
+    text-align: center;
 }
+
 

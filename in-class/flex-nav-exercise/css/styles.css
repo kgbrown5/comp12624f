@@ -1,0 +1,50 @@
+body {
+   background-color: #fff;
+   color: #333;
+   font-family:
+    'Verdana',
+     sans-serif;
+   padding: 1em;
+ }
+
+header {
+background-color: #E9F2CF;
+}
+
+nav {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.navbar {
+  max-width: 800px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  background-color: #B3D6C6;
+  border-radius: 0.2em;
+  padding: 0.5em;
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+/* this is just for the nav preview image */
+
+img {
+width: 100%;
+}
+
+.nav-img {
+width: 90%;
+padding: 20px;
+margin: 0 auto;
+border: 1px solid black;
+}

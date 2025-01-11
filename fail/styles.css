@@ -1,0 +1,95 @@
+.yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.josefin-sans-regular {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    width: 100%;
+}
+
+#nav-logo, h1, h2 {
+    font-family: "Yeseva One", serif;
+    color: rgb(45, 31, 135);
+}
+
+h3, p, a {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* ^^ global styling */
+
+nav {
+    background-color: rgb(165, 153, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(45, 31, 135);
+    max-height: 70px;
+}
+
+#nav-logo {
+    padding: 30px;
+    font-size: larger
+}
+
+#menu {
+    position: absolute;
+    right: 40px;
+    font-size: xx-large;
+    transition: all ease-in-out 0.2s;
+}
+
+.nav-menu {
+    position: absolute;
+    /* top: -150px; */
+    right: 40px;
+    background-color: rgb(165, 153, 247);
+}
+
+.nav-menu:active {
+    top: 30px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    font-size: larger;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(45, 31, 135);
+}
+
+.menu-items a:hover, nav ul li a:focus {
+    color: white;
+}
+
+
+/* \/ \/ desktop styling */
+
+@media screen and (min-width: 700px) {
+    #menu {
+        color: rgb(165, 153, 247);
+    }
+
+    .nav-menu {
+        max-height: 70px;
+    }
+
+    .nav-menu ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-menu ul li {
+        padding: 20px;
+    }
+}
